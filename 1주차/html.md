@@ -228,4 +228,4 @@ HTML 속성은 HTML 요소에 추가 정보를 제공한다. 속성은 항상 �
 <p style="color:blue;">This is Blue</p>
 ```
 
-[돌아가기](../readme.md)
+[돌아가기](/readme.md)
