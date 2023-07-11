@@ -225,11 +225,11 @@ HTML 속성은 HTML 요소에 추가 정보를 제공한다. 속성은 항상 �
 `style` 속성은 HTML 요소에 CSS 스타일을 적용한다. 다음과 같이 사용한다.
 
 ```html
-<h1 style="color:blue;">This is a Blue Heading</h1>
+<p style="color:blue;">This is Blue</p>
 ```
 
 위 코드는 다음과 같이 렌더링 된다.
 
-<h1 style="color:blue;">This is a Blue Heading</h1>
+<p style="color:blue;">This is Blue</p>
 
 [돌아가기](../readme.md)
