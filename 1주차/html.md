@@ -230,6 +230,7 @@ HTML 속성은 HTML 요소에 추가 정보를 제공한다. 속성은 항상 �
 
 위 코드는 다음과 같이 렌더링 된다.
 
-<p style="color:blue;">This is Blue</p>
+<!-- <p style="color:blue;">This is Blue</p> -->
+<iframe src="/example.html" title="example html"></iframe>
 
 [돌아가기](../readme.md)
