@@ -7,4 +7,6 @@
 
 ### 1주차 과제 열람
 
-[HTML](1주차/html.md)
+- [HTML](1주차/html.md)
+
+- [CSS](1주차/css.md)

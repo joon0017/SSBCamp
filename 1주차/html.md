@@ -124,3 +124,112 @@ HTML 페이지는 다음과 같은 구조를 가지고 있다.
     <td>Jackson</td>
     <td>94</td>
   </tr>
+</table>
+
+### `<form>` 태그
+
+`<form>` 태그는 사용자의 입력을 받는 태그이다. 다음과 같이 사용한다.
+
+```html
+<form action="/action_page.php">
+  <label for="fname">First name:</label><br>
+  <input type="text" id="fname" name="fname" value="조"><br>
+  <label for="lname">Last name:</label><br>
+  <input type="text" id="lname" name="lname" value="성준"><br><br>
+  <input type="submit" value="Submit">
+</form>
+```
+
+위 코드는 다음과 같이 렌더링 된다.
+
+<form action="/action_page.php">
+  <label for="fname">First name:</label><br>
+  <input type="text" id="fname" name="fname" value="조"><br>
+  <label for="lname">Last name:</label><br>
+  <input type="text" id="lname" name="lname" value="성준"><br><br>
+  <input type="submit" value="Submit">
+</form>
+
+### `<div>` 태그
+
+`<div>` 태그는 블록 레벨 요소로, 문서의 특정 부분을 그룹화 하는데 사용한다. 다음과 같이 사용한다.
+
+```html
+<div>
+  <h2>London</h2>
+  <p>London is the capital city of England.</p>
+</div>
+
+<div>
+  <h2>Paris</h2>
+  <p>Paris is the capital of France.</p>
+</div>
+```
+
+위 코드는 다음과 같이 렌더링 된다.
+
+<div>
+  <h2>London</h2>
+  <p>London is the capital city of England.</p>
+</div>
+
+<div>
+  <h2>Paris</h2>
+  <p>Paris is the capital of France.</p>
+</div>
+
+이 외에도 많은 태그들이 있다.
+
+## HTML 속성
+
+HTML 속성은 HTML 요소에 추가 정보를 제공한다. 속성은 항상 시작 태그에 지정된다. 속성은 이름과 값으로 구성된다. 다음과 같이 사용한다.
+
+```html
+<tagname attribute="value">Content goes here...</tagname>
+```
+
+### `href` 속성
+
+`href` 속성은 링크의 목적지를 지정한다. 다음과 같이 사용한다.
+
+```html
+<a href="https://www.w3schools.com">This is a link</a>
+```
+
+### `src` 속성
+
+`src` 속성은 이미지의 경로를 지정한다.
+
+```html
+<img src="https://i.imgur.com/PBX5W83.png">
+```
+
+### `width`, `height` 속성
+
+`width` 속성은 이미지의 너비를, `height` 속성은 이미지의 높이를 지정한다. 단위는 픽셀이다.
+
+```html
+<img src="https://i.imgur.com/PBX5W83.png" width="360" height="240">
+```
+
+### `alt` 속성
+
+`alt` 속성은 이미지의 대체 텍스트를 지정한다. 이미지가 로드 되지 않았을 때, 대체 텍스트가 보여진다.
+
+```html
+<img src="https://i.imgur.com/PBX5W83.png" alt="cat image">
+```
+
+### `style` 속성
+
+`style` 속성은 HTML 요소에 CSS 스타일을 적용한다. 다음과 같이 사용한다.
+
+```html
+<h1 style="color:blue;">This is a Blue Heading</h1>
+```
+
+위 코드는 다음과 같이 렌더링 된다.
+
+<h1 style="color:blue;">This is a Blue Heading</h1>
+
+[돌아가기](../readme.md)
