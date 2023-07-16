@@ -80,20 +80,6 @@ const a = 1;
 ```
 위의 예시는 버튼을 클릭하면, id가 text인 요소의 글자 색을 빨간색으로 바꾸는 예시이다.
 
-<html>
-    <head>
-        <script>
-            function changeColor() {
-                document.getElementById("text").style.color = "red";
-            }
-        </script>
-    </head>
-    <body>
-        <p id="text">Hello World!</p>
-        <button onclick="changeColor()">Click!</button>
-    </body>
-</html>
-
 이 외에도, 한 태그 안에 있는 내용, 속성 등을 제어 할 수도 있다.
 
 [돌아가기](/README.md)
