@@ -10,3 +10,7 @@
 - [HTML](1주차/html.md)
 
 - [CSS](1주차/css.md)
+
+### 2주차 과제 열람
+
+- [Bootstrap](2주차/bootstrap.md)
